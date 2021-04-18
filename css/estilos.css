@@ -2,5 +2,18 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background: #333;
+    font-size: 1.3rem;
     color: tomato;
+}
+
+#container {
+    width: 70%;
+    padding: 2rem;
+    text-align: left;
+    border: 1px solid #f1f1f1;
+    margin: auto;
+}
+
+#container h1 {
+    font-size: 2rem;
 }
