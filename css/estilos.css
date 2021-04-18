@@ -6,9 +6,25 @@ body {
     color: tomato;
 }
 
+#cabecera {
+    background: dodgerblue;
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+    font-weight: bold;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+#cabecera #tagline {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
 #container {
     width: 70%;
-    padding: 2rem;
+    padding: 0;
     text-align: left;
     border: 1px solid #f1f1f1;
     margin: auto;
@@ -16,4 +32,8 @@ body {
 
 #container h1 {
     font-size: 2rem;
+}
+
+#post {
+    padding: 1rem;
 }
